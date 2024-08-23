@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif" "Roboto";
+}
+.Contaner{
+    height: auto;
+    width: 100%;
+   background-color: aquamarine;
+}
+
+  
+/* NavBar section  */
+
+.navbar{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(177, 153, 14); 
+}
+
+.logo{
+ margin-top: 0.2rem;
+    height:auto; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.logo img{
+  width: 6rem;
+  height: 6rem;
+}
+.header{ 
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 5rem 0 0 ;
+}
+
+ /* functions  */
+
+.functions{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 1.5rem 0 0;
+    background-image: url(https://i0.wp.com/davmps.org/wp-content/uploads/2020/12/1606894509917-1.jpg?fit=1024%2C484&ssl=1);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+}
+.function{
+    margin-top: 1rem;
+
+}
+.functions a{
+    text-decoration: none;
+    margin:0.7rem 0.4rem;
+    font-size:large;
+    font-weight: 700;
+    color: #071113;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease;
+}
+
+.functions a:hover{
+  color: #f5f4f1;
+  background-color: #7a8b19;
+}
+
+/* about section */
+
+.abouts{
+    display:flex;
+    padding: 1rem;
+   justify-content: space-between;
+   /* margin-top: 1rem; */
+   background-color: rgb(163, 177, 6);
+}
+
+
+
+.about{
+    
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+    
+}
+
+.about h2{
+text-align: center;
+
+}
+
+.about p {
+    margin-top: 2rem;
+}
+
+.image {
+    justify-content: flex-end;
+    padding-top: 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.image img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* cards */
+
+.cardes{
+    margin-left: 30%;
+    padding-top:1rem;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.card-img{
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-body h2  {
+    text-align: center;
+   
+}
+
+/* contects us */
+
+.conects{
+    background-color: blue;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+   height: 50vh;
+}
+
+
+/* footer */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{ 
+    list-style: none;
+  }
+  .footer{
+    background-color: #24262b;
+      padding: 1.5rem 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 1rem;
+  }
+  .footer-col h4{
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 1.8rem;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  /* .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  } */
+  .footer-col ul li a{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer-col .social-links a{
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 0.5rem 0.5rem 0;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+
+
+/* subfooter */
+
+.subfooter {
+    padding: 1rem;
+    background: purple;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
